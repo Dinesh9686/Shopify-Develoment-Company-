@@ -1,0 +1,550 @@
+/* General Styles */
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+    color: #333;
+    line-height: 1.6;
+}
+
+.container {
+    width: 100%;
+    margin: auto;
+    overflow: hidden;
+}
+
+
+
+
+header .btn {
+    background: #4CAF50;
+    color: #fff;
+    height: 30px;
+    border: none;
+    margin-top: 10px;
+    cursor: pointer;
+    width:100px;
+}
+
+header .btn:hover {
+    background: #45a049;
+}
+
+/* Hero Section */
+.hero {
+  background-image:
+    linear-gradient(to left, rgba(245, 246, 252, 0.52), rgba(39, 203, 69, 0.73)),
+    url('../assets/images/bg\ img.png');
+    background-size: cover;
+    /* background: url('../assets/images/bg\ img.png') no-repeat center center/cover; */
+    color: #fff;
+    padding: 100px 0;
+    text-align: center;
+    height: 600px;
+}
+
+
+
+.contact-form {
+    background: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    margin-top: 20px;
+    display: inline-block;
+    /* opacity: 0.8; */
+    height: 450px;
+    max-width: 25%;
+    /* position: relative; */
+    position: absolute;
+    bottom: 9%;
+    right: 8%;
+    /* left: 30%; */
+}
+
+.contact-form h2 {
+    margin-top: 0;
+}
+
+.contact-form input, .contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+}
+
+.contact-form button {
+    background: #4CAF50;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    /* width: 50px; */
+}
+
+.contact-form button:hover {
+    background: #45a049;
+}
+
+/* Clients Section */
+.clients {
+    background: #eae8e8;
+    padding: 15px 0;
+    /* text-align: center; */
+}
+
+.clients img {
+    /* margin: 1 10px; */
+    width: 230px;
+    float: left;
+    text-align: center;
+    padding-left: 1px;
+}
+
+
+/* About Section */
+.about {
+    padding: 40px 0;
+}
+
+.about h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.about p {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.stats {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    
+
+}
+
+.stats div {
+    text-align: center;
+    background-color: white;
+    width: 45%;
+    margin-bottom: 20px;
+    border: 1px solid black;
+}
+
+.stats h3 {
+    margin-bottom: 10px;
+    padding: 25px;
+    color: #4CAF50;
+}
+
+/* Footer */
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+footer p {
+    margin: 0;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    header nav ul li {
+        display: block;
+        text-align: center;
+        margin: 10px 0;
+    }
+
+    .stats div {
+        width: 100%;
+    }
+}
+
+
+.client{
+    height: 500px;
+}
+
+
+/* client in cards  */
+
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 50px 0;
+
+
+}
+
+.cards .card{
+    width: 550px;
+    height: 300px;
+    margin: 20px;    
+    background-color: lightgray;
+    border: 1px solid #ddd;
+    display: flex;
+    flex-direction: column; 
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+
+/* services below  */
+
+
+
+
+
+/* case_studies  */
+
+.case_studies{
+    height: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 50px 0;
+}
+
+
+
+
+
+/* footer css  */
+
+
+.new-homepage .background-5 {
+    background: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 60px 0;
+    width: 1920px;
+    box-sizing: border-box;
+  }
+
+  .new-homepage .background-5 {
+    background: #0E2B5C;
+    margin-bottom: 13.7px;
+    display: flex;
+    width: 270px;
+    height: 135px;
+    box-sizing: border-box;
+  }
+
+  .new-homepage .aside {
+    margin-right: 68.3px;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+  }
+
+  .new-homepage .footer-logo-png {
+    background: url('../assets/images/footer_logo_png.png');
+    margin-bottom: 19px;
+    align-self: flex-start;
+    width: 283px;
+    height: 60px;
+  }
+
+  .new-homepage .we-are-ateam-of-shopify-enthusiasts-aiming-to-help-merchantsagencies-worldwide-with-our-shopify-development-services-to-create-an-ecommerce-experience-to-produce-great-results-for-their-businesses {
+    margin: 0 0 19px 15px;
+    display: inline-block;
+    overflow-wrap: break-word;
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 1.467;
+    color: #627792;
+  }
+
+  .new-homepage .list {
+    margin: 0 15px;
+    display: flex;
+    flex-direction: row;
+    align-self: flex-start;
+    column-gap: 12px;
+    width: 385px;
+    box-sizing: border-box;
+  }
+
+  .new-homepage .vector-45 {
+    width: 20px;
+    height: 19.9px;
+  }
+
+  .new-homepage .item-1 {
+    border-radius: 9999px;
+    background: #1DA1F2;
+    display: flex;
+    padding: 10px 7.8px 9.7px 8.2px;
+    width: 36px;
+    height: 36px;
+    box-sizing: border-box;
+  }
+
+  .new-homepage .vector-46 {
+    width: 20px;
+    height: 16.3px;
+  }
+
+  .new-homepage .vector-48 {
+    width: 18px;
+    height: 18px;
+  }
+  .new-homepage .item-2 {
+    border-radius: 9999px;
+    background: #F00075;
+    display: flex;
+    padding: 9px;
+    width: 36px;
+    height: 36px;
+    box-sizing: border-box;
+  }
+  .new-homepage .vector-49 {
+    width: 18px;
+    height: 18px;
+  }
+  .new-homepage .item-3 {
+    border-radius: 9999px;
+    background: #0D66C2;
+    display: flex;
+    padding: 9px;
+    width: 36px;
+    height: 36px;
+    box-sizing: border-box;
+  }
+  .new-homepage .list {
+    margin: 0 15px;
+    display: flex;
+    flex-direction: row;
+    align-self: flex-start;
+    column-gap: 12px;
+    width: 385px;
+    box-sizing: border-box;
+  }
+
+  .new-homepage .aside-1 {
+    margin-right: 24.1px;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+  }
+
+  .new-homepage .heading-3-quicklinks {
+    margin-bottom: 30px;
+    display: inline-block;
+    align-self: flex-start;
+    overflow-wrap: break-word;
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 1.467;
+    color: #0E2B5C;
+  }
+
+  .new-homepage .list-1 {
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    box-sizing: border-box;
+  }
+
+  .new-homepage .item-link {
+    margin-bottom: 10px;
+    display: flex;
+    align-self: flex-start;
+    box-sizing: border-box;
+  }
+
+  .new-homepage .shopify-stores {
+    overflow-wrap: break-word;
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 1.467;
+    color: #0E2B5C;
+  }
+  .new-homepage .item-link-1 {
+    margin-bottom: 10px;
+    display: flex;
+    align-self: flex-start;
+    box-sizing: border-box;
+  }
+  .new-homepage .shopify-app {
+    overflow-wrap: break-word;
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 1.467;
+    color: #0E2B5C;
+  }
+  .new-homepage .item-link-2 {
+    margin-bottom: 10px;
+    display: flex;
+    align-self: flex-start;
+    box-sizing: border-box;
+  }
+
+  .new-homepage .hire-shopify-developers {
+    overflow-wrap: break-word;
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 1.467;
+    color: #0E2B5C;
+  }
+  .new-homepage .item-link-3 {
+    margin-bottom: 10px;
+    display: flex;
+    box-sizing: border-box;
+  }
+  .new-homepage .about-us {
+    overflow-wrap: break-word;
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 1.467;
+    color: #0E2B5C;
+  }
+  .new-homepage .item-link-4 {
+    margin-bottom: 10px;
+    display: flex;
+    align-self: flex-start;
+    box-sizing: border-box;
+  }
+  .new-homepage .insights {
+    overflow-wrap: break-word;
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 1.467;
+    color: #0E2B5C;
+  }
+  .new-homepage .item-link-5 {
+    margin-bottom: 10px;
+    display: flex;
+    align-self: flex-start;
+    box-sizing: border-box;
+  }
+  .new-homepage .contact-us {
+    overflow-wrap: break-word;
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 1.467;
+    color: #0E2B5C;
+  }
+  .new-homepage .item-link-6 {
+    display: flex;
+    align-self: flex-start;
+    box-sizing: border-box;
+  }
+  
+  .new-homepage .aside-2 {
+    margin: 0 118.8px 84px 0;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+  }
+
+  .new-homepage .heading-3-get-in-touch {
+    margin-bottom: 19px;
+    display: inline-block;
+    align-self: flex-start;
+    overflow-wrap: break-word;
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 1.467;
+    color: #0E2B5C;
+  }
+  .new-homepage .sunset-lake-road-suite-b-2-in-the-city-of-newark-zip-code-19702-new-castle-delaware-usa {
+    margin-bottom: 9px;
+    display: inline-block;
+    overflow-wrap: break-word;
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 1.467;
+    color: #627792;
+  }
+  .new-homepage .container-18 {
+    margin-right: 3.2px;
+    display: flex;
+    flex-direction: row;
+    width: fit-content;
+    box-sizing: border-box;
+  }
+  .new-homepage .m {
+    margin-right: 0.1px;
+    overflow-wrap: break-word;
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 1.467;
+    color: #627792;
+  }
+
+  .new-homepage .link-20 {
+    display: flex;
+    box-sizing: border-box;
+  }
+
+  .new-homepage .helloshopivogue-com {
+    overflow-wrap: break-word;
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 1.467;
+    color: #0E2B5C;
+  }
+  .new-homepage .aside-3 {
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+  }
+
+  .new-homepage .heading-3-certifications {
+    margin-bottom: 30px;
+    display: inline-block;
+    align-self: flex-start;
+    overflow-wrap: break-word;
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 1.467;
+    color: #0E2B5C;
+  }
+  .new-homepage .shopify-partner-png {
+    background: url('../assets/images/shopify_partner_png.png');
+    margin-bottom: 20px;
+    width: 249px;
+    height: 48px;
+  }
+  .new-homepage .shopify-expert-png {
+    background: url('../assets/images/shopify_expert_png.png');
+    margin-bottom: 20px;
+    width: 249px;
+    height: 48px;
+  }
+  .new-homepage .shopify-plus-ftr-logo-png {
+    background: url('../assets/images/shopify_plus_ftr_logo_png.png');
+    align-self: flex-start;
+    width: 210px;
+    height: 48px;
+  }
+
+  /* Latest_Trends start  */
+
+  .card {
+    margin-bottom: 1rem;
+}
+
+
+  
+

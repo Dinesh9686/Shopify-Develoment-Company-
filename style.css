@@ -1,0 +1,277 @@
+.new-homepage .container-14 {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+  }
+
+.new-homepage .frame-81 {
+    position: relative;
+    margin-bottom: 0px;
+    display: flex;
+    padding-bottom: 614.6px;
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+  .new-homepage .frame-15 {
+    background: #FFFFFF;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 16px 0;
+    width: 1920px;
+    height: fit-content;
+    box-sizing: border-box;
+  }
+  .new-homepage .image {
+    /* background: url('../css/bg\ img.png') 100%  / cover no-repeat; */
+    margin: 3.5px 0;
+    width: 206px;
+    height: 450px;
+  }
+
+  .new-homepage .frame-10 {
+    margin: 14.5px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 479px;
+    height: fit-content;
+    box-sizing: border-box;
+  }
+
+  .new-homepage .shopify-apps-1 {
+    margin-right: 13px;
+    width: 101px;
+    overflow-wrap: break-word;
+    font-family: 'Rubik';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.625;
+    color: #6E9E43;
+  }
+
+  .new-homepage .container {
+    overflow-wrap: break-word;
+    font-family: 'Rubik';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.625;
+    color: #2A2A2A;
+  }
+
+  .new-homepage .container-1 {
+    overflow-wrap: break-word;
+    font-family: 'Rubik';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.625;
+    color: #2A2A2A;
+  }
+
+  .new-homepage .container-2 {
+    overflow-wrap: break-word;
+    font-family: 'Rubik';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.625;
+    color: #2A2A2A;
+  }
+
+.new-homepage .frame-11 {
+  border-radius: 5px;
+  background: #6E9E43;
+  display: flex;
+  flex-direction: row;
+  padding: 12.5px 0;
+  width: 212px;
+  height: fit-content;
+  box-sizing: border-box;
+}
+
+.new-homepage .bxbxs-phone-call {
+    margin-right: 16.4px;
+    width: 30px;
+    height: 30px;
+  }
+
+  .new-homepage .lets-discuss {
+    margin: 3.5px 0;
+    display: inline-block;
+    overflow-wrap: break-word;
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 1.125;
+    color: #FFFFFF;
+  }
+
+
+
+  .new-homepage .frame-13 {
+    position: absolute;
+    left: -1195.1px;
+    top: -547px;
+    display: flex;
+    padding: 1154px 268px 318.4px 268px;
+    width: 1920px;
+    height: 520px;
+    box-sizing: border-box;
+  }
+
+  /* .new-homepage .section-2 {
+    background: linear-gradient(#002D2D, #002D2D), url('../assets/images/section.png');
+    position: absolute;
+    left: 0px;
+    right: 268px;
+    bottom: 298px;
+    height: 750px;
+  } */
+
+  /* .new-homepage .dl-beatsnoop-com-3000-p-5-rj-iubp-jf-1 {
+    background: linear-gradient(90deg, rgba(110, 158, 67, 0) 10.9%, #6E9E43 61.7%), url('../assets/images/dl_beatsnoop_com_3000_p_5_rj_iubp_jf_1.png') 50% / cover no-repeat;
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    width: 2457px;
+    height: 1567px;
+  } */
+
+  .new-homepage .frame-75 {
+    background: #FFFFFF;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 32.3px 0;
+    width: 1920px;
+    height: fit-content;
+    box-sizing: border-box;
+  }
+
+  .new-homepage .orabel-png-180-x {
+    background: url('../assets/images/orabel_png_180_x.png') 50% / cover no-repeat;
+    width: 101.9px;
+    height: 30px;
+  }
+
+  .new-homepage .logo-black-hcopy-c-433-b-1-f-3-c-024 {
+    background: url('../assets/images/logo_black_hcopy_c_433_b_1_f_3_c_024.png');
+    width: 169.2px;
+    height: 30px;
+  }
+
+
+
+  .new-homepage .frame-88 {
+    margin: 2.7px 0;
+    display: flex;
+    width: 181.9px;
+    height: 30.6px;
+    box-sizing: border-box;
+  }
+
+  .new-homepage .transparent-logo-2 {
+    background: url('../assets/images/transparent_logo_2.png') 50% / cover no-repeat;
+    width: 181.9px;
+    height: 24.6px;
+  }
+
+  .new-homepage .logo-1 {
+    background: url('../assets/images/logo_1.png') 50% / cover no-repeat;
+    width: 159.4px;
+    height: 30px;
+  }
+
+
+  .new-homepage .frame-8 {
+    position: absolute;
+    right: 1168.3px;
+    bottom: 527.2px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-sizing: border-box;
+  }
+
+  .new-homepage .frame-74 {
+    margin-bottom: 32px;
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    box-sizing: border-box;
+  }
+
+  .new-homepage .best-shopify-development-company-for {
+    margin-bottom: 16px;
+    display: inline-block;
+    align-self: flex-start;
+    overflow-wrap: break-word;
+    font-family: 'Rubik';
+    font-weight: 500;
+    font-size: 22px;
+    letter-spacing: -0.3px;
+    line-height: 1.545;
+    text-transform: uppercase;
+    color: #FFFFFF;
+  }
+
+  .new-homepage .group-13 {
+    margin-bottom: 16px;
+    display: flex;
+    align-self: flex-start;
+    box-sizing: border-box;
+  }
+
+  .new-homepage .shopify-apps-3 {
+    overflow-wrap: break-word;
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 54px;
+    color: #FFFFFF;
+  }
+
+  .new-homepage .experience-aunique-shopify-web-design-and-get-awork-from-certified-shopify-experts-to-get-an-extraordinary-ecommerce-adventure {
+    overflow-wrap: break-word;
+    font-family: 'Rubik';
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 1.6;
+    color: #FFFFFF;
+  }
+
+
+  .new-homepage .frame-66 {
+    margin-right: 25.4px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 688px;
+    box-sizing: border-box;
+  }
+  .new-homepage .shopify-partner-logo-0101-svg-fill {
+    width: 179.4px;
+    height: 43.7px;
+  }
+
+  .new-homepage .shopify-plus-logo-0101-svg {
+    margin: 0.2px 0;
+    width: 179.4px;
+    height: 43.3px;
+  }
+
+  .new-homepage .shopify-experts-logo-0101-svg {
+    margin: 0.2px 0;
+    width: 179.4px;
+    height: 43.3px;
+  }
+
+  .new-homepage .frame-66 {
+    margin-right: 25.4px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 688px;
+    box-sizing: border-box;
+  }
